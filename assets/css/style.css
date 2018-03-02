@@ -1,6 +1,6 @@
 body {
-    background: #c1d72e;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background-image: url(./assets/images/polonez_car.png);
+    font-family: "Noto Sans, sans-serif";
     color: #fff;
     height: 100%;
     text-align: center;
