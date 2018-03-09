@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-image: url(/Users/rosienardulli/code/hangman-game/images/cars.png);
+    text-align: center;
+  }
+  
+  .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+  }
+  
+  .current-word {
+    list-style: none;
+  }
+  
+  .output {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .correct {
+    background-color: rgb(41, 41, 51);
+  }
+  
+  .error {
+    color: rgb(107, 46, 46);
+    opacity: 1;
+  }
+  
+  .warning {
+    color: rgb(236, 144, 57);
+    opacity: 1;
+  }
+  
+  .win {
+    color: rgb(36, 34, 173);
+    opacity: 1;
+  }
+  
