@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,38 +10,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
+
 <body>
     <h1>Midwest Road Trip!</h1>
-
-
     <h2>Guess The State...</h2>
+    <h3 id="youWin" class="hide">You Win</h3>
+    <h3 id="youLose" class="hide">You Lose</h3>
+    <br>
 
+    <div id="dashDiv">
+        <!-- dashed display here -->
+    </div>
+    </div>
+    <br>
 
+    <div>
+        <div>Guesses Left:
+            <span id="guessesDiv">
+                <!-- numbers here -->
+            </span>
+        </div>
 
+    </div>
+    <br>
+    <div>
+        <div>Wins:
+            <span id="winSpan">
+                <!-- numbers here -->
+            </span>
+        </div>
 
-  <br>
+    </div>
 
-        <div id="dashDiv"><!-- dashed display here --></div>  
-    </div><br>
+    <div>
+        <div>Losses:
+            <span id="loseSpan">
+                <!-- numbers here -->
+            </span>
+        </div>
+        <br>
 
-        <div>
-                <div>Guesses Left: <span id="guessesDiv"><!-- numbers here --></span></div>
-                
-            </div><br>
-            <div>
-                    <div>Wins: <span id="winSpan"><!-- numbers here --></span></div>
-                  
-                </div>
-
-                <div>
-                        <div>Losses: <span id="loseSpan"><!-- numbers here --></span></div>
-                      <br>
-
-                      <button id="restart" name="restart" type="button">Restart</button>
-                    </div>
-
+        <button id="restart" name="restart" type="button">Restart</button>
+    </div>
 
 </body>
+
 </html>
 
 
